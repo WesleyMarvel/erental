@@ -1,0 +1,23 @@
+server:
+  port: 1260
+
+spring:
+  profiles:
+    active: development
+
+  thymeleaf:
+    prefix: classpath:/templates/
+
+  servlet:
+    multipart:
+      max-request-size: 10MB
+
+#  mail:
+#    host: 13-39-130-251.cprapid.com
+#    port: 465
+#    username: system@brainstakesolutions.com
+#    password: 62gxi9j;fm%x
+#
+#    properties:
+#      mail.smtp.auth: true
+#      mail.smtp.starttls.enable: true
